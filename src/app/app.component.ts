@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app-internationalisation';
+  todaysDate = Date.now();
+  accountBalance = "100";
+  zeroMinutes = 0;
+  oneMinute = 1;
+  twoMinutes = 2;
 }
